@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import LazyImage from './LazyImage';
 
-const PokeCard = ({ url, name}) => {
+const PokeCard = ({ key, url, name}) => {
 
   const [pokemon, setPokemon] = useState();
 
